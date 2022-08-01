@@ -4,4 +4,4 @@ rocketmq:
   producer:
     group: boot_producer_group
   topic: producer_tag_dev
-  name-server: 192.168.1.8:9876
+  name-server: 127.0.0.1:9876

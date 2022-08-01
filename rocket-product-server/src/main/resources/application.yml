@@ -3,10 +3,10 @@ server:
 spring:
     datasource:
         type: com.alibaba.druid.pool.DruidDataSource
-        url: jdbc:mysql://192.168.1.8:3306/storage?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+        url: jdbc:mysql://127.0.0.1:3306/storage?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
         driver-class-name: com.mysql.cj.jdbc.Driver
         username: root
-        password: zevin@123
+        password: 123456
         max-wait: 60000
         max-active: 100
         min-idle: 10
@@ -28,4 +28,4 @@ rocketmq:
     producer:
         group: boot_product_group
         send-message-timeout: 6000
-    name-server: 192.168.1.8:9876
+    name-server: 127.0.0.1:9876
